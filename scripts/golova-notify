@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+# Codex invokes this command when a task finishes.
+/usr/bin/osascript -e 'display notification "Голова, дай денег" with title "Таск завершён"' >/dev/null 2>&1 || true
